@@ -1,25 +1,25 @@
 def spiralize(size, n=1):
-    x = 1
-    counter = 0
-    incrt = 4
-    total = 0
-    for i in range(n):
-        i = n + 1
-        size = sqrt(i)
+     if n < 10
+        return None 
+     elif n == 10:
+        return 10
 
-    while n <= number ** 4
-        size += n
-        n +=  incrt
-        counter += 2
-        if counter == 8:
-            incrt += 4
-            counter = 0
-    
-
-    return_value = n
+    else:
+        size = [10]
+        size_n = 11 * n - 1
+        incrt = 11
+        while len(size) < size_n:
+            incrt = int(len(numbers) * 0.5 + 1)
     return return_value
+            
 
-    if __name__ == "__main__":
-        n = 17
-        while n <= 102
-        answer = spiralize(n)
+
+if __name__ == "__main__":
+    start = time()
+    ans = spiralize(501)
+    elapsed_time = (timer() - start) * 500
+    if ans:
+        print("Found Sum")
+    else:
+        print("No answer found")
+
